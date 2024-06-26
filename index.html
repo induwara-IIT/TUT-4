@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 04</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        Pizza Order
+    </h1>
+    <fieldset id="a">
+        <legend>Personal Details</legend>
+        <form>
+            <div class="sec">
+                <label for="name" class="q"> Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="sec">
+                <label for="pnum" class="q"> Phone Number: </label>
+                <input type="tel" name="pnum" id="pnum" placeholder="Enter your phone number">
+            </div>
+
+            <div class="sec">
+                <label for="email" class="q">Email address:</label>
+                <input type="email" name="email" id="email" placeholder="someone@example.com">
+            </div>
+
+            <div class="sec">
+                <label for="address" class="q"> Address: </label>
+                <input type="text" name="address" id="address" size="45" placeholder="street, city, district, postal code">
+            </div>
+        </form>
+    </fieldset>
+
+    <fieldset id="b">
+        <legend> Pizza order options </legend>
+        <form>
+            <div class="sec">
+                <label for="pizzas" class="q"> Number of pizzas: </label>
+                <input type="number" name="pizzas" id="pizzas">
+            </div>
+
+            <div class="sec">
+                <label class="q"> Choose pizza size: </label>
+                <input type="radio" name="size" id="stype" value="Small">
+                <label for="stype"> Small </label>
+
+                <input type="radio" name="size" id="dtype" value="Medium">
+                <label for="dtype"> Medium </label>
+
+                <input type="radio" name="size" id="ktype" value="Large">
+                <label for="ktype"> Large </label>
+            </div>
+
+            <div class="sec">
+                <label for="crust" class="q"> Choose crust type: </label>
+                <select name="crust" id="crust">
+                    <option value="Thin crust"> Thin crust </option>
+                    <option value="Thick crust"> Thick crust </option>
+                    <option value="Stuffed crust"> Stuffed crust </option>
+                </select>
+            </div>
+
+            <div class="sec">
+                <label class="q"> Choose cheese type: </label>
+                <input type="checkbox" id="cheese1" name="cheese1" value="Mozzarella">
+                <label for="cheese1"> Mozzarella </label>
+                <input type="checkbox" id="cheese2" name="cheese2" value="Cheddar">
+                <label for="cheese2"> Cheddar </label>
+                <input type="checkbox" id="cheese3" name="cheese3" value="Parmesan">
+                <label for="cheese3"> Parmesan </label>
+                <input type="checkbox" id="cheese4" name="cheese4" value="Extra Cheese">
+                <label for="cheese4"> Extra Cheese </label>
+            </div>
+
+            <div class="sec">
+                <label class="q"> Choose toppings: </label>
+                <input type="checkbox" id="topping1" name="topping1" value="Pepperoni">
+                <label for="topping1"> Pepperoni </label>
+                <input type="checkbox" id="topping2" name="topping2" value="Sausage">
+                <label for="topping2"> Sausage </label>
+                <input type="checkbox" id="topping3" name="topping3" value="Bacon">
+                <label for="topping3"> Bacon </label>
+                <input type="checkbox" id="topping4" name="topping4" value="Mushrooms">
+                <label for="topping4"> Mushrooms </label>
+                <input type="checkbox" id="topping5" name="topping5" value="Pineapple">
+                <label for="topping5"> Olives </label>
+                <input type="checkbox" id="topping6" name="topping6" value="Black Olives">
+                <label for="topping6"> Pineapple </label>
+                <input type="checkbox" id="topping6" name="topping6" value="Black Olives">
+                <label for="topping6"> Chicken </label>
+                <input type="checkbox" id="topping6" name="topping6" value="Black Olives">
+                <label for="topping6"> Onions </label>
+                <input type="checkbox" id="topping6" name="topping6" value="Black Olives">
+                <label for="topping6"> Green Pepper </label>
+            </div>
+
+            <div class="sec">
+                <label class="q"> Payment type: </label>
+                <input type="radio" name="payment" id="card" value="Credit/Debit card">
+                <label for="card"> Credit/ Debit card </label>
+
+                <input type="radio" name="payment" id="cod" value="Cash on Delivery">
+                <label for="cod"> Cash on Delivery </label>
+            </div>
+
+            <div class="sec">
+                <label for="req" class="q"> Additional instructions:</label>
+                <textarea name="req" id="req" rows="3" cols="50" placeholder="Please provide any additional requirements"></textarea>
+            </div>
+        </form>
+    </fieldset>
+    
+    <fieldset id="c">
+        <form class="actions">
+            <input class="submit" type="submit"  value=" Send " name="send">
+            <input class="reset" type="reset" value=" Reset " name ="reset">
+        </form>
+    </fieldset>
+</body>
+</html>

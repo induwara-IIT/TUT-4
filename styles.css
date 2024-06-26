@@ -1,0 +1,150 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: #D32F2F;
+}
+
+
+fieldset {
+    border: 2px solid #757575;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 600px;
+}
+.q{
+    font-weight: bold;
+}
+
+#a {
+    background-color: #ff9b9b2f;
+}
+
+#b {
+    background-color: #FFF5E1;
+}
+
+#c {
+    background-color: #E1E5EA;
+    height: 30px;
+}
+
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+#a legend {
+    background-color: #D32F2F;
+    color: #FFFFFF;
+    
+}
+
+#b legend {
+    background-color: #FBC02D;
+    color: #212121;
+}
+
+#c legend {
+    background-color: #388E3C;
+    color: #FFFFFF;
+}
+
+
+.sec {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+.sec label {
+    margin-bottom: 10px;
+    display: block; 
+}
+
+
+.sec input[type="text"], .sec input[type="tel"], .sec input[type="email"], .sec input[type="number"], .sec textarea, .sec select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #212121;
+    box-sizing: border-box; 
+}
+
+.sec input[type="radio"], .sec input[type="checkbox"] {
+    margin-right: 10px;
+    display: inline-block; 
+}
+
+
+.sec input[type="radio"] + label, .sec input[type="checkbox"] + label {
+    margin-right: 20px; 
+    display: inline-block; 
+}
+
+
+.submit {
+    background-color: #D32F2F;
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.reset {
+    background-color: #FBC02D;
+    color: #212121;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+.reset,.submit:hover {
+    opacity: 0.8;
+}
+
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.sec-checkboxes {
+    display: inline-block; 
+}
+
+.sec-checkboxes input[type="checkbox"] {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.sec-checkboxes label {
+    display: inline-block;
+    margin-right: 15px; 
+}
